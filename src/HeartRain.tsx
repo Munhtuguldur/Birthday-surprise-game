@@ -1,7 +1,7 @@
 // src/components/HeartRain.tsx
 "use client";
 
-import React, { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 
 type Props = {
   count?: number; // number of hearts on screen
